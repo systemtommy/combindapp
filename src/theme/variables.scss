@@ -38,10 +38,17 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  lightbutton: #ffb7fa,
+  grays:#e4e4e4,
+  grayss: #808080
 );
 
-
+//Adorid and iOS
+$tabs-background : color($colors,grays);
+$tabs-tab-color-inactive : color($colors,danger);
+$tabs-tab-color-active: color($colors,grayss);
+$toolbar-background: color($colors,grayss);
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
